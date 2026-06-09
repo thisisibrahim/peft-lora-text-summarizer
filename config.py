@@ -1,0 +1,15 @@
+MODEL_NAME = "google/flan-t5-small"
+DATASET_NAME = "knkarthick/samsum"
+
+OUTPUT_DIR = "./outputs/run_5000"
+ADAPTER_DIR = "./outputs/lora_adapter_5000"
+
+MAX_INPUT_LENGTH = 512
+MAX_TARGET_LENGTH = 128
+
+TRAIN_SAMPLE_SIZE = 5000
+EVAL_SAMPLE_SIZE = 300
+
+BATCH_SIZE = 2
+LEARNING_RATE = 1e-4
+NUM_EPOCHS = 1
