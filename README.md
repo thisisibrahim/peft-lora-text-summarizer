@@ -309,7 +309,6 @@ Through this project, I learned:
 * how LoRA adapters are attached to Transformer layers
 * how to prepare dialogue-summary data for sequence-to-sequence training
 * how to train only adapter parameters instead of the full model
-* how to save and reload LoRA adapters
 * how to compare model outputs before and after fine-tuning
 * how to evaluate summarization models using ROUGE
 * why experiment design matters in machine learning
